@@ -12,4 +12,4 @@ _.each(process.argv.slice(2), function(item) {
     args.push(item);
 });
 process.argv = args;
-jsontodir(process.argv[process.argv.length - 1]);
+jsontodir(process.argv[process.argv.length - 1], 'source');

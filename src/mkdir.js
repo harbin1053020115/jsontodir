@@ -18,10 +18,8 @@ var log = require("log");
 var filesystem = shutils.filesystem;
 var logger = new log("INFO");
 
-var curDir = process.cwd();
-
 /* 入口函数 */
-function main(jsonSource){
+function main(jsonSource, baseDir){
     var jsonObject;
 
     if(_.isObject(jsonSource)){
@@ -32,7 +30,7 @@ function main(jsonSource){
         jsonObject = parseJsonFile(path.join(process.cwd(), jsonSource));
     }
 
-    jsonToDir(jsonObject, curDir);
+    jsonToDir(jsonObject, path.join(process.cwd(), baseDir));
 }
 
 /* 解析json文件内容 */
