@@ -1,6 +1,6 @@
 {
     "name": "jsontodir",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "convert json to directory",
     "main": "index.js",
     "scripts": {
