@@ -1,0 +1,23 @@
+{
+  "name": "jsontodir",
+  "version": "0.0.0",
+  "description": "convert json to directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harbin1053020115/jsontodir.git"
+  },
+  "keywords": [
+    "json",
+    "directory"
+  ],
+  "author": "ermin.zem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harbin1053020115/jsontodir/issues"
+  },
+  "homepage": "https://github.com/harbin1053020115/jsontodir"
+}
