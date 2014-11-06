@@ -1,0 +1,28 @@
+{
+    "apps": {
+        "type": "directory",
+        "children": {
+            "demo": {
+                "type": "directory",
+                "children": {
+                    "application.js": {
+                        "type": "file",
+                        "content": "test content"
+                    }
+                }
+            }
+        }
+    },
+
+    "css": {
+        "type": "directory"
+    },
+
+    "pages": {
+        "type": "directory"
+    },
+
+    "widgets": {
+        "type": "directory"
+    }
+}

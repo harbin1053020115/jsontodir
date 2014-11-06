@@ -1,23 +1,32 @@
 {
-  "name": "jsontodir",
-  "version": "0.0.0",
-  "description": "convert json to directory",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/harbin1053020115/jsontodir.git"
-  },
-  "keywords": [
-    "json",
-    "directory"
-  ],
-  "author": "ermin.zem",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/harbin1053020115/jsontodir/issues"
-  },
-  "homepage": "https://github.com/harbin1053020115/jsontodir"
+    "name": "jsontodir",
+    "version": "0.1.0",
+    "description": "convert json to directory",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/harbin1053020115/jsontodir.git"
+    },
+    "keywords": [
+        "json",
+        "directory"
+    ],
+    "author": "ermin.zem",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/harbin1053020115/jsontodir/issues"
+    },
+    "homepage": "https://github.com/harbin1053020115/jsontodir",
+    "dependencies": {
+        "handlebars": "^1.3.0",
+        "is-url": "^1.1.0",
+        "shutils": "0.0.2",
+        "underscore": "^1.7.0",
+        "q": "^1.0.1",
+        "request": "^2.37.0",
+        "log": "^1.4.0"
+    }
 }
